@@ -1,0 +1,100 @@
+body {
+    font-size: 16px;
+    font-family: Lato, "Helvetica Neue", Arial, "Microsoft Yahei", Helvetica, sans-serif;
+}
+
+.ui.header {
+    font-family: Lato, "Helvetica Neue", Arial, "Microsoft Yahei", Helvetica, sans-serif;
+}
+
+.main.container {
+    padding: 2em 0em 7em;
+}
+
+.masthead.segment {
+    padding: 3em 0em;
+}
+
+img {
+    border: 1px solid rgb(220, 220, 220);
+}
+
+code {
+    padding: 0;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin: 0;
+    font-size: 85%;
+    font-family: Consolas, monospace;
+    background-color: rgba(27, 31, 35, 0.05);
+    border-radius: 3px;
+}
+
+code::before,
+code::after {
+    letter-spacing: -0.2em;
+    content: "\00a0";
+}
+
+abbr[title] {
+    text-decoration: none;
+}
+
+kbd {
+    display: inline-block;
+    padding: 3px 5px;
+    font-size: 11px;
+    font-family: Consolas, monospace;
+    line-height: 10px;
+    color: #444d56;
+    vertical-align: middle;
+    background-color: #fafbfc;
+    border: solid 1px #c6cbd1;
+    border-bottom-color: #959da5;
+    border-radius: 3px;
+    box-shadow: inset 0px -1px 0px #959da5;
+}
+
+pre {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: .8rem;
+    line-height: 1.4;
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f0f0f0;
+}
+
+pre code {
+    padding: 0;
+    font-family: "Consolas", monospace;
+    font-size: 100%;
+    color: inherit;
+    background-color: transparent;
+}
+
+pre code::before,
+pre code::after {
+    letter-spacing: 0;
+    content: none;
+}
+
+blockquote {
+    margin: 0 0 1rem;
+    padding: .5rem 1rem;
+    border-left: 3px solid #dfdfdf;
+}
+
+a[target="_blank"]:after {
+    content: "";
+    background: url("external-link.svg");
+    background-size: 12px 12px;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin-left: 4px;
+    margin-bottom: -1px;
+}
